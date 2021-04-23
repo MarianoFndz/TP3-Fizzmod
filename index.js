@@ -1,10 +1,10 @@
-const express = require("express")
-const dotenv = require("dotenv")
+import express from "express"
+import dotenv from "dotenv"
 dotenv.config()
 
-const MsjAplicationStart = require("./utils/MsjAplicationStart")
-const { port } = require("./utils/config")
-const showGreet = require("./utils/greet")
+import MsjAplicationStart from "./utils/MsjAplicationStart.js"
+import { port } from "./utils/config.js"
+import showGreet from "./utils/greet.js"
 
 const app = express()
 

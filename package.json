@@ -1,5 +1,6 @@
 {
   "name": "tp3-fizzmod",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
