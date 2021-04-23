@@ -1,0 +1,24 @@
+{
+  "contenidoStr": "{\n  \"name\": \"tp3-fizzmod\",\n  \"type\": \"module\",\n  \"version\": \"1.0.0\",\n  \"description\": \"\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo \\\"Error: no test specified\\\" && exit 1\"\n  },\n  \"author\": \"Mariano Fernandez\",\n  \"license\": \"ISC\",\n  \"dependencies\": {\n    \"dotenv\": \"^8.2.0\",\n    \"express\": \"^4.17.1\"\n  },\n  \"engines\": {\n    \"node\": \"15.14.0\",\n    \"npm\": \"7.9.0\"\n  }\n}\n",
+  "contenidoObj": {
+    "name": "tp3-fizzmod",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Mariano Fernandez",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^8.2.0",
+      "express": "^4.17.1"
+    },
+    "engines": {
+      "node": "15.14.0",
+      "npm": "7.9.0"
+    }
+  },
+  "size": 380
+}
