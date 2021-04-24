@@ -1,14 +1,17 @@
+import { generateRandomValues } from "../utils/randomUtils.js"
+
+
+
 const randomController = (req, res) => {
     const objContador = {}
-    for (let i = 0; i <= 10000; i++) {
-        const randomNumber = Math.floor((Math.random() * 20) + 1)
-        if (objContador[randomNumber]) {
-            objContador[randomNumber]++
-            continue
-        }
-        objContador[randomNumber] = 1
-    }
+    const MAX_VALUE = 20
+    const RANDOM_VALUE = () => Math.floor((Math.random() * MAX_VALUE) + 1)
+    const INITIAL_VALUE = 1
+
+    generateRandomValues(objContador, RANDOM_VALUE, INITIAL_VALUE)
+
     res.json(objContador)
 }
+
 
 export default randomController
